@@ -1,3 +1,4 @@
+
 # Description: BAND NAME GENERATOR
 
 # 1. Create a greeting for your program.
@@ -8,15 +9,11 @@
 
 print("Hello! Welcome to the Band Name Generator Created by Gabriel")
 
-city = input("What is the name of your city?")
-pet = input("What is the name of your favorite pet?")
+city = input("What is the name of your city?\n")
+pet = input("What is the name of your favorite pet?\n")
 
 band_name = city + pet
-print(band_name \n)
-
-
-
-
+print(band_name)
 
 
 ###another a bit advanced way to do this 
@@ -25,9 +22,10 @@ print(band_name \n)
 Greeting = "Hello! Welcome to the Band Name Generator Created by Gabriel"
 print(Greeting)
 
-city = input("What is the name of your city?")
-pet = input("What is the name of your favorite pet?")
+city = input("What is the name of your city?\n")
+pet = input("What is the name of your favorite pet?\n")
 
-band_name = city + pet
-print(f"Your band name is {band_name}")
+band_name = city + " " + pet
+print(f"Your band name is: {band_name}")
+
 
