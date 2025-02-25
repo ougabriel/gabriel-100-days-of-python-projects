@@ -1,4 +1,4 @@
-#This line of code uses \n to add to another line
+#This line of code uses \n to print the names in another line
 
 name = input("What is your name?")
 surname = input("What is your surname?")
