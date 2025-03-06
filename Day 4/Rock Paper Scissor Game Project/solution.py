@@ -49,5 +49,7 @@ elif user_input > computer_input:
     print("You Win!!")
 elif user_input == computer_input:
     print("It's a Draw!!")
+elif user_input >= 3 and user_input <0:
+    print{"You've typed an invalid number"}
 else:
     print("You loose!!")
