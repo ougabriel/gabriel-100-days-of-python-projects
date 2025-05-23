@@ -1,7 +1,7 @@
 # gabriel-100-days-of-python-projects
 This Repo contains notes of my 100 Days of Python Projects: by Gabriel Okom
 
-# 💯 100 Days of Python Bootcamp by Dr. Angela Yu
+# 💯 100 Days of Python Bootcamp
 
 This repository contains a summary of all 100 days of the Python Bootcamp structured by Day, Topics, Subtopics, and Project.
 
