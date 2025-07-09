@@ -1,5 +1,3 @@
-#Topic: Nested List and dictionaries
-
 student_scores = {
     'Harry': 88,
     'Ron': 78,
@@ -8,21 +6,29 @@ student_scores = {
     'Neville': 60
 }
 
-student_grades = {
-}
+#TO-DO 1: Create an empty dictionary
+student_grades = {}
 
+#TO-DO 2: Apply grading logic 
+#Loop through each students scores
 for student in student_scores:
     scores = student_scores[student]
 
-    if scores > 90:
+#The grading logic
+    if scores >= 90:
         grades = "Outstanding"
-    elif scores > 80:
-        grades = "Exceeds Expectation"
-    elif scores > 70:
+    elif scores >= 80:
+        grades = "Exceeds Expectations"
+    elif scores >= 71:
         grades = "Acceptable"
-    else:
-        grades = "Fail"
+    else: grades = "Fail"
 
-student_grades[student] = grades
+#TO-DO: Assign the grades
+    student_grades[student] = grades
 
+#print student grades
 print(student_grades)
+
+
+    
+
