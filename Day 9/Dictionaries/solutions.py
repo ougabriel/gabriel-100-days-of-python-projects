@@ -10,25 +10,26 @@ student_scores = {
 student_grades = {}
 
 #TO-DO 2: Apply grading logic 
-#Loop through each students scores
+#Loop through each students scores and store the value
 for student in student_scores:
-    scores = student_scores[student]
+    score = student_scores[student]     #calls the value of each student and stores it as score variable
 
 #The grading logic
-    if scores >= 90:
+    if score >= 91:
         grades = "Outstanding"
-    elif scores >= 80:
+    elif score >= 81:
         grades = "Exceeds Expectations"
-    elif scores >= 71:
+    elif score >= 71:
         grades = "Acceptable"
-    else: grades = "Fail"
+    else:
+        grades = "Fail"
+    
 
 #TO-DO: Assign the grades
     student_grades[student] = grades
 
 #print student grades
-print(student_grades)
-
+student_grades = {}
 
     
 
