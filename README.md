@@ -92,3 +92,16 @@ This repository contains a summary of all 100 days of the Python Bootcamp struct
 
 ---
 
+## Day 12: Local & Global Scope
+
+**Topics Covered**
+- Global scope
+- Local scope
+  majorly why a variable is either local or global.
+
+**sub-project**
+- Write a code that defines if a number is prime or not
+
+**Project**
+- A number guessing game
+
